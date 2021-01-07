@@ -1,6 +1,10 @@
 import random # 用別人做好的東西
-# randint = random integer
-r = random.randint(1, 100) # (.)是‘的’的意思
+start = input('請決定隨機數字範圍開始值:')
+end = input('請決定隨機數字範圍結束值:')
+start = int(start)
+end = int(end)
+
+r = random.randint(start, end) # (.)是‘的’的意思
 count = 0
 while True:
 	count += 1 # count = count + 1
